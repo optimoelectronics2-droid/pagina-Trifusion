@@ -1,0 +1,22 @@
+/* Variables de diseño: cambia colores, tipografía y espacios aquí */
+:root {
+  --bg: #050914;
+  --bg-2: #0a1330;
+  --fg: #eaf6ff;
+  --muted: #9fb3c8;
+  --c1: #22e0ff;
+  --c2: #2be6a0;
+  --c3: #5b4bff;
+  --star: #fbbc04;
+  --line: rgba(255, 255, 255, .1);
+  --plate: radial-gradient(120% 90% at 50% 35%, #fff 0, #eef3f9 62%, #dbe5f0 100%);
+  --gradient-brand: linear-gradient(100deg, var(--c1), var(--c2));
+  --gradient-frame: linear-gradient(135deg, var(--c1), var(--c3) 55%, var(--c2));
+
+  --font: Sora, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --page-x: 5vw;
+  --max-w: 1200px;
+  --nav-h: 84px;
+  --radius: 18px;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}

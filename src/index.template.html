@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{brand}} | Quiénes somos y con qué trabajamos</title>
+  <meta name="description" content="Trifusion Technologies en Santo Domingo Este: impresoras, monitores, UPS y teléfonos con garantía y soporte técnico especializado.">
+  <meta name="theme-color" content="#050914">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections/hero.css">
+  <link rel="stylesheet" href="css/sections/catalog.css">
+  <link rel="stylesheet" href="css/sections/carousel.css">
+  <link rel="stylesheet" href="css/sections/about.css">
+  <link rel="stylesheet" href="css/sections/videos.css">
+  <link rel="stylesheet" href="css/sections/reviews.css">
+  <link rel="stylesheet" href="css/sections/visit.css">
+  <link rel="stylesheet" href="css/motion.css">
+  <link rel="stylesheet" href="css/intro.css">
+  <script>document.documentElement.classList.add('js','pre')</script>
+</head>
+<body>
+
+  <div id="intro" aria-hidden="true"><div class="intro-in">
+    <small>SOMOS TECNOLOGÍA MODERNA Y VERSÁTIL</small>
+    <h1>TRIFUSION TECHNOLOGIES</h1>
+    <div class="intro-bolt"></div>
+  </div></div>
+
+  <header class="nav">
+    <a href="#top" aria-label="Inicio" class="brand"><img src="assets/img/logo.png" alt="{{brand}}" width="{{logo_w}}" height="{{logo_h}}"><span>TRIFUSION<b>TECHNOLOGIES</b></span></a>
+    <div>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#trabajamos">Trabajamos</a>
+      <a href="#videos">Videos</a>
+      <a href="#visita">Visítanos</a>
+      <a class="wa" href="{{wa}}">WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero split">
+      <div>
+        <h1 class="rise">{{headline}}</h1>
+        <p class="lead rise" style="--d:.15s">{{sub}}</p>
+        <div class="rise" style="--d:.3s">
+          <a class="btn" href="#videos">Ver videos</a>
+          <a class="btn btn--ghost" href="#nosotros">Quiénes somos</a>
+        </div>
+      </div>
+      <div class="frame hero-media hero-float rise" style="--d:.1s"><div class="in">
+{{hero_slides}}
+        <div class="hero-caption"><span id="hero-label">{{hero_first}}</span><div class="ticks" id="hero-ticks">{{hero_ticks}}</div></div>
+      </div>
+        <span class="orb orb--a"></span><span class="orb orb--b"></span>
+        <span class="chip chip--1">180Hz Gaming</span>
+        <span class="chip chip--2">Full HD</span>
+        <span class="chip chip--3">Garantía local</span>
+      </div>
+      <div class="market-note rise" style="--d:.4s">
+        <p><b>Marketplace:</b> aquí puedes ver más productos y contactarte con un vendedor directamente. Profesionales y preparados.</p>
+        <div class="row">
+          <a class="btn" href="https://www.facebook.com/marketplace/profile/100090388693304" target="_blank">Marketplace 1</a>
+          <a class="btn btn--ghost" href="https://www.facebook.com/marketplace/profile/100007535640934" target="_blank">Marketplace 2</a>
+          <a class="btn btn--ghost" href="https://www.facebook.com/marketplace/profile/100006634654534" target="_blank">Marketplace 3</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tienda">
+      <div class="split">
+        <div class="rv">
+          <h2>Nosotros somos tecnología y versatilidad</h2>
+          <p class="lead">Innovamos tu mundo con los mejores equipos y asesoría experta. Ven y vive la experiencia Trifusion.</p>
+          <a class="btn" href="{{wa}}">Preguntar por WhatsApp</a>
+        </div>
+        <div class="frame rv"><div class="in tienda-media">
+          <video autoplay muted loop playsinline preload="metadata" poster="assets/video/posters/tienda-loop.jpg" src="assets/video/tienda-loop.mp4"></video>
+        </div></div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="about">
+      <h2 class="rv">{{about_title}}</h2>
+      <p class="lead rv">{{about_text}}</p>
+      <ul class="about-points rv">
+{{about_points}}
+      </ul>
+      <div class="rv" style="margin-top:20px">
+        <a class="btn" href="{{wa}}">Hablar por WhatsApp</a>
+        <a class="btn btn--ghost" href="{{ig_url}}">Ver Instagram {{ig_handle}}</a>
+      </div>
+    </section>
+
+    <section id="trabajamos">
+      <h2 class="rv">Con lo que trabajamos</h2>
+      <p class="lead rv">Selecciona una categoría para ver nuestro catálogo completo</p>
+      <div class="grid">
+{{categories}}
+      </div>
+      <div class="rv" style="margin-top:28px; display: flex; gap: 15px; flex-wrap: wrap;">
+        <a class="btn" href="#videos">Ver demostraciones en video</a>
+        <a class="btn btn--ghost" href="{{wa}}">Pedir información</a>
+      </div>
+    </section>
+
+    <section id="catalogos">
+      <h2 class="rv">Catálogos</h2>
+      <p class="lead rv">Accesos directos a cada catálogo.</p>
+      <div class="catlinks rv">
+        <a href="https://optimoelectronics2-droid.github.io/impresora/"><div><b>Impresoras</b><small>Láser e inkjet para oficina y hogar</small></div><span>→</span></a>
+        <a href="https://optimoelectronics2-droid.github.io/monitores/"><div><b>Monitores</b><small>LED, gaming y profesionales</small></div><span>→</span></a>
+        <a href="https://optimoelectronics2-droid.github.io/UPS/"><div><b>UPS</b><small>Respaldo eléctrico para tus equipos</small></div><span>→</span></a>
+        <a href="https://list-phone.netlify.app/"><div><b>Teléfonos</b><small>Celulares y Accesorios</small></div><span>→</span></a>
+      </div>
+    </section>
+
+    <section id="videos">
+      <h2 class="rv">Videos: míralo en acción</h2>
+      <p class="lead rv">Cada video está aquí mismo y enlaza directo a su reel de Instagram.</p>
+      <div class="video-grid">
+{{videos}}
+      </div>
+      <div class="rv" style="margin-top:20px">
+        <a class="btn btn--ghost" href="{{ig_url}}">Todos los reels en Instagram</a>
+      </div>
+    </section>
+
+    <section id="novedades">
+      <div class="head rv">
+        <h2>Equipos en tienda</h2>
+        <div class="controls">
+          <button class="arrow" id="prev" aria-label="Anterior">‹</button>
+          <button class="arrow" id="next" aria-label="Siguiente">›</button>
+        </div>
+      </div>
+      <div class="ig rv">
+        <div class="avatar"><img src="assets/img/logo.png" alt="" width="46" height="40"></div>
+        <div><b>{{ig_handle}}</b><br><small>Con lo que trabajamos día a día</small></div>
+        <a class="btn btn--ghost" href="{{ig_url}}">Seguir en Instagram</a>
+      </div>
+      <div class="rail" id="rail" tabindex="0" aria-label="Equipos en tienda">
+{{products}}
+      </div>
+    </section>
+
+    <section id="resenas">
+      <h2 class="rv">Lo que dicen en Google</h2>
+      <div class="frame rv" style="margin-top:20px"><div class="in reviews">
+        <div><div class="rating" id="rating">{{rating}}</div><div class="stars">{{stars}}</div></div>
+        <div>
+          <p id="review-count">Basado en {{review_count}} reseñas</p>
+          <div class="live"><i></i><span id="review-status">Última valoración conocida</span></div>
+          <a class="btn" href="https://maps.app.goo.gl/TKsahGskmJJv4KNA8">Ver reseñas en Google Maps</a>
+        </div>
+      </div></div>
+    </section>
+
+    <section id="visita" class="visit">
+      <h2 class="rv">Visítanos</h2>
+      <div class="split">
+        <div class="rv">
+          <p class="lead">Plaza Quiñónez, C. Club Activo 20-30 #3<br>Alma Rosa II, Santo Domingo Este 11506</p>
+          <table id="hours">{{hours}}</table>
+          <a class="btn" href="https://www.google.com/maps/dir//18.4962009,-69.8497819">Cómo llegar</a>
+          <a class="btn btn--ghost" href="{{phone_href}}">{{phone_label}}</a>
+        </div>
+        <a class="map frame rv" aria-label="Ver mapa en Google Maps" href="https://www.google.com/maps/place/Trifusion+Technologies/@18.4962009,-69.8497819,915m/data=!4m6!3m5!1s0x8eaf87930b15dbc9:0xbd5f4d6b33cc5f34!8m2!3d18.4962009!4d-69.8497819!16s%2Fg%2F11zcj4kj6m">
+          <div class="in"><img src="assets/img/map.svg" alt="Mapa de ubicación de {{brand}}" width="600" height="380" loading="lazy"></div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+    <div>
+      <a class="btn btn--ghost" href="https://www.facebook.com/marketplace/profile/100090388693304" target="_blank">Marketplace 1</a>
+      <a class="btn btn--ghost" href="https://www.facebook.com/marketplace/profile/100007535640934" target="_blank">Marketplace 2</a>
+      <a class="btn btn--ghost" href="https://www.facebook.com/marketplace/profile/100006634654534" target="_blank">Marketplace 3</a>
+    </div>
+    <span>© {{brand}} · Santo Domingo Este</span>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="js/hero.js" defer></script>
+  <script src="js/carousel.js" defer></script>
+  <script src="js/reveal.js" defer></script>
+  <script src="js/hours.js" defer></script>
+  <script src="js/reviews.js" defer></script>
+  <script src="js/intro.js" defer></script>
+  <script src="js/parallax.js" defer></script>
+</body>
+</html>

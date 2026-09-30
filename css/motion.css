@@ -1,0 +1,27 @@
+/* Movimiento sutil. Todo funciona (y se ve) aunque falle el JavaScript. */
+@keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes shine { from { left: -100%; } to { left: 200%; } }
+
+/* Entrada de la portada: solo CSS, sin bloquear nada */
+.rise { animation: rise .8s var(--ease) both; animation-delay: var(--d, 0s); }
+
+/* Elementos flotantes continuos */
+.float { animation: float 4s ease-in-out infinite; }
+.float-delayed { animation: float 4s ease-in-out infinite; animation-delay: 2s; }
+
+/* Brillo dinámico */
+.shine-effect { position: relative; overflow: hidden; }
+.shine-effect::after {
+  content: ''; position: absolute; top: 0; left: -100%; width: 50%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transform: skewX(-25deg); animation: shine 3s infinite; pointer-events: none;
+}
+
+/* La entrada del hero espera a que salga la intro (solo con JS; sin JS corre normal) */
+.pre .rise { animation: none; opacity: 0; }
+body.entered .rise { animation: rise .8s var(--ease) both; animation-delay: var(--d, 0s); }
+
+/* Aparición al hacer scroll: solo si JS está activo */
+.js .rv { opacity: 0; transform: translateY(20px); transition: opacity .6s ease, transform .6s var(--ease); }
+.js .rv.in { opacity: 1; transform: none; }

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pc",
+    "name": "PC gamer",
+    "category": "Computadoras",
+    "image": "assets/img/products/pc.webp"
+  },
+  {
+    "id": "curvo",
+    "name": "Monitor curvo gaming",
+    "category": "Monitores",
+    "image": "assets/img/products/curvo.webp"
+  },
+  {
+    "id": "impresora",
+    "name": "Impresora HP láser",
+    "category": "Impresoras",
+    "image": "assets/img/products/impresora.webp",
+    "blend": true
+  },
+  {
+    "id": "aoc24",
+    "name": "Monitor 24 pulgadas 120 Hz",
+    "category": "Monitores",
+    "image": "assets/img/products/aoc24.webp"
+  },
+  {
+    "id": "ups",
+    "name": "UPS Forza 1500 VA",
+    "category": "Respaldo eléctrico",
+    "image": "assets/img/products/ups.webp",
+    "blend": true
+  },
+  {
+    "id": "gaming",
+    "name": "Monitores gaming",
+    "category": "Monitores",
+    "image": "assets/img/products/gaming.webp"
+  },
+  {
+    "id": "video",
+    "name": "Kit de videoportero",
+    "category": "Seguridad",
+    "image": "assets/img/products/video.webp"
+  },
+  {
+    "id": "mag",
+    "name": "Monitor MSI MAG",
+    "category": "Monitores",
+    "image": "assets/img/products/mag.webp"
+  },
+  {
+    "id": "combo",
+    "name": "Teclado y mouse RGB",
+    "category": "Gaming",
+    "image": "assets/img/products/combo.webp"
+  },
+  {
+    "id": "diseno",
+    "name": "Monitor para diseño",
+    "category": "Monitores",
+    "image": "assets/img/products/diseno.webp"
+  },
+  {
+    "id": "camara",
+    "name": "Cámara de seguridad",
+    "category": "Seguridad",
+    "image": "assets/img/products/camara.webp"
+  },
+  {
+    "id": "portatil",
+    "name": "Monitor portátil 15.6\"",
+    "category": "Monitores",
+    "image": "assets/img/products/portatil.webp"
+  },
+  {
+    "id": "mother",
+    "name": "Tarjeta madre",
+    "category": "Componentes",
+    "image": "assets/img/products/mother.webp"
+  },
+  {
+    "id": "inalam",
+    "name": "Teclado y mouse inalámbricos",
+    "category": "Accesorios",
+    "image": "assets/img/products/inalam.webp"
+  },
+  {
+    "id": "panel",
+    "name": "Panel de videoportero",
+    "category": "Seguridad",
+    "image": "assets/img/products/panel.webp"
+  },
+  {
+    "id": "control",
+    "name": "Control gaming",
+    "category": "Gaming",
+    "image": "assets/img/products/control.webp"
+  }
+]

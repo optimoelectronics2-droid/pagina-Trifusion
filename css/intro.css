@@ -1,0 +1,15 @@
+/* Entrada eléctrica: se muestra al abrir y se retira sola (también sin JS). */
+#intro { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; text-align: center; background: #03060f; overflow: hidden; animation: intro-out .7s ease 4s forwards; }
+#intro.done { opacity: 0; visibility: hidden; pointer-events: none; transition: opacity .6s ease, visibility .6s; animation: none; }
+#intro::before { content: ""; position: absolute; inset: -40%; background: conic-gradient(from 0deg, transparent 0 40%, rgba(34,224,255,.25) 50%, transparent 60%, transparent 70%, rgba(91,75,255,.25) 80%, transparent 90%); animation: intro-spin 2.2s linear infinite; }
+#intro::after { content: ""; position: absolute; inset: 0; background: radial-gradient(60% 50% at 50% 50%, rgba(34,224,255,.18), transparent 70%); animation: intro-flash 3.6s steps(12) forwards; }
+.intro-in { position: relative; z-index: 2; padding: 0 24px; animation: intro-flicker 3.6s linear forwards; }
+.intro-in small { display: block; letter-spacing: .35em; font-size: 12px; color: var(--c2); font-weight: 600; }
+.intro-in h1 { margin: 12px 0; font-size: clamp(26px, 6vw, 54px); line-height: 1.1; background: linear-gradient(100deg, #fff, var(--c1) 45%, var(--c2)); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: 0 0 34px rgba(34,224,255,.35); }
+.intro-in b { letter-spacing: .2em; font-size: 14px; color: var(--fg); }
+.intro-bolt { width: 120px; height: 3px; margin: 18px auto 0; border-radius: 2px; background: var(--gradient-brand); box-shadow: 0 0 18px var(--c1), 0 0 46px var(--c1); animation: intro-bolt 1s ease-in-out infinite alternate; }
+@keyframes intro-spin { to { transform: rotate(360deg); } }
+@keyframes intro-flash { 0%, 100% { opacity: .4; } 10% { opacity: 1; } 20% { opacity: .5; } 35% { opacity: 1; } 60% { opacity: .6; } 80% { opacity: 1; } }
+@keyframes intro-flicker { 0%, 100% { opacity: 1; } 8% { opacity: .6; } 12% { opacity: 1; } 46% { opacity: .75; } 50% { opacity: 1; } }
+@keyframes intro-bolt { from { transform: scaleX(.7); opacity: .7; } to { transform: scaleX(1.15); opacity: 1; } }
+@keyframes intro-out { 0% { opacity: 1; } 25% { opacity: 1; filter: brightness(1.8); } 100% { opacity: 0; visibility: hidden; transform: translateY(-4%) scale(1.03); } }

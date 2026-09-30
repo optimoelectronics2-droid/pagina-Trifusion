@@ -1,0 +1,59 @@
+[
+  {
+    "id": "impresoras",
+    "name": "Impresoras",
+    "description": "Láser e inkjet para oficina y hogar",
+    "image": "assets/img/products/impresora.webp",
+    "alt": "Impresoras Trifusion",
+    "url": "https://optimoelectronics2-droid.github.io/impresora/",
+    "go": "Ver Catálogo"
+  },
+  {
+    "id": "monitores",
+    "name": "Monitores",
+    "description": "LED, gaming y profesionales",
+    "image": "assets/img/products/aoc24.webp",
+    "alt": "Monitores Trifusion",
+    "url": "https://optimoelectronics2-droid.github.io/monitores/",
+    "go": "Ver Catálogo"
+  },
+  {
+    "id": "ups",
+    "name": "UPS",
+    "description": "Respaldo eléctrico para tus equipos",
+    "image": "assets/img/products/ups.webp",
+    "alt": "UPS Trifusion",
+    "url": "https://optimoelectronics2-droid.github.io/UPS/",
+    "go": "Ver Catálogo"
+  },
+  {
+    "id": "telefonos",
+    "name": "Teléfonos",
+    "description": "Celulares y Accesorios",
+    "image": "assets/img/products/telefonos.webp",
+    "alt": "Teléfonos Trifusion",
+    "url": "https://list-phone.netlify.app/",
+    "go": "Ver Catálogo",
+    "photo": true
+  },
+  {
+    "id": "audio",
+    "name": "Audio y bocinas",
+    "description": "Potencia, música y diversión en un solo equipo",
+    "image": "assets/img/hero/hero-2.webp",
+    "alt": "Bocinas y audio Trifusion",
+    "url": "#video-bocina",
+    "go": "Ver video",
+    "photo": true
+  },
+  {
+    "id": "laptops",
+    "name": "Laptops",
+    "description": "Potencia para trabajar, estudiar y crear",
+    "image": "assets/img/products/laptops.jpg",
+    "alt": "Laptops",
+    "url": "#video-destacado",
+    "go": "Ver video",
+    "photo": true
+  }
+]

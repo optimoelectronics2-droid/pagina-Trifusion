@@ -1,0 +1,81 @@
+{
+  "brand": "Trifusion Technologies",
+  "whatsapp": "18298725163",
+  "phone": { "label": "(829) 872-5163", "href": "tel:+18298725163" },
+  "instagram": { "handle": "@trifusiontechnologies", "url": "https://www.instagram.com/trifusiontechnologies" },
+  "quoteMessage": "Hola Trifusion, quiero información sobre: ",
+  "hero": {
+    "headline": "Tu aliado en tecnología en Santo Domingo Este",
+    "sub": "Te mostramos con qué trabajamos, quiénes somos y cómo te asesoramos. Trato directo por WhatsApp e Instagram.",
+    "slides": [
+      { "image": "assets/img/hero/hero-1.webp", "alt": "Monitor gaming", "label": "Monitores y estaciones de trabajo" },
+      { "image": "assets/img/hero/hero-2.webp", "alt": "Bocinas", "label": "Audio y bocinas" },
+      { "image": "assets/img/hero/hero-3.webp", "alt": "Laptop", "label": "Laptops y computadoras" }
+    ]
+  },
+  "about": {
+    "title": "Quiénes somos",
+    "text": "Somos Trifusion Technologies, tienda de tecnología en Alma Rosa II, Santo Domingo Este. Trabajamos con monitores, impresoras Epson EcoTank, teléfonos, audio, escritorios de altura ajustable, UPS, seguridad electrónica y gaming. Te asesoramos por WhatsApp e Instagram, te mostramos los equipos en video y te ayudamos a elegir lo que necesitas para trabajar, estudiar o crear.",
+    "points": [
+      "Asesoría directa por WhatsApp",
+      "Demostración en video e Instagram",
+      "Garantía y soporte técnico local"
+    ]
+  },
+  "videos": [
+    {
+      "id": "video-destacado",
+      "title": "Destacado Trifusion",
+      "desc": "Mira lo nuevo que tenemos en tienda.",
+      "file": "assets/video/video-destacado.mp4",
+      "poster": "assets/video/posters/destacado.jpg",
+      "instagram": "https://www.instagram.com/reel/Dcl-zh2JmuI/"
+    },
+    {
+      "id": "video-mesa",
+      "title": "Escritorio MYO de altura ajustable",
+      "desc": "Trabaja, estudia o crea con mayor comodidad y adapta tu espacio.",
+      "file": "assets/video/video-mesa.mp4",
+      "poster": "assets/video/posters/mesa.jpg",
+      "instagram": "https://www.instagram.com/reel/DcTV6wuxIgF/"
+    },
+    {
+      "id": "video-impresora",
+      "title": "Impresora Epson EcoTank L3350",
+      "desc": "Epson EcoTank L3350 vs L4360: te ayudamos a elegir. Color con Wi-Fi.",
+      "file": "assets/video/video-impresora.mp4",
+      "poster": "assets/video/posters/impresora.jpg",
+      "instagram": "https://www.instagram.com/reel/DcJmp5dJY7G/"
+    },
+    {
+      "id": "video-bocina",
+      "title": "Bocina: potencia, música y diversión",
+      "desc": "Lleva tu música a cualquier lugar con un solo equipo.",
+      "file": "assets/video/video-bocina.mp4",
+      "poster": "assets/video/posters/bocina.jpg",
+      "instagram": "https://www.instagram.com/reel/Db_CSPWJTEV/"
+    },
+    {
+      "id": "video-telefono",
+      "title": "Teléfonos resistentes",
+      "desc": "Celulares y accesorios para el día a día.",
+      "file": "assets/video/video-telefono.mp4",
+      "poster": "assets/video/posters/telefono.jpg",
+      "instagram": "https://www.instagram.com/reel/DbyJBibJ7zw/"
+    },
+    {
+      "id": "video-monitores",
+      "title": "Monitores MSI PRO MP273L",
+      "desc": "27\" Full HD 144 Hz: eleva tu productividad con un monitor diseñado para ti.",
+      "file": "assets/video/video-monitores.mp4",
+      "poster": "assets/video/posters/monitores.jpg",
+      "instagram": "https://www.instagram.com/reel/DbCL1k3pqwV/"
+    }
+  ],
+  "hours": [
+    { "label": "Lunes a viernes", "value": "9:00 AM – 6:00 PM", "days": [1, 2, 3, 4, 5] },
+    { "label": "Sábado", "value": "9:00 AM – 3:00 PM", "days": [6] },
+    { "label": "Domingo", "value": "Cerrado", "days": [0] }
+  ],
+  "reviews": { "rating": 4.5, "count": 2, "endpoint": "/.netlify/functions/reviews" }
+}
